@@ -1,0 +1,7 @@
+word = input()
+tmp = set()
+for w in word:
+    if w in tmp:
+        break
+    tmp.add(w)
+print(w)
